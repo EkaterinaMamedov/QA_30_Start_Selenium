@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="home work 25.07.25">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWorkChesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="28.07.2025 CW">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.HomeWork.byCssSelectors.executor": "Run",
     "Gradle.HomeWork.cssSelectors.executor": "Run",
+    "Gradle.HomeWork.cssXpath.executor": "Run",
     "Gradle.Index.tableTest.executor": "Run",
     "Gradle.StartSelenium.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -70,8 +70,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Index.tableTest">
-    <configuration name="HomeWork.cssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HomeWork.byXpath">
+    <configuration name="HomeWork.byClassName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +84,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;HomeWork.cssSelectors&quot;" />
+            <option value="&quot;HomeWork.byClassName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -95,7 +95,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Index.tableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HomeWork.byCssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -108,7 +108,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;Index.tableTest&quot;" />
+            <option value="&quot;HomeWork.byCssSelectors&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -119,7 +119,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StartSelenium.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HomeWork.byId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +132,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;StartSelenium.test&quot;" />
+            <option value="&quot;HomeWork.byId&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeWork.byName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HomeWork.byName&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeWork.byXpath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HomeWork.byXpath&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,9 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Index.tableTest" />
-        <item itemvalue="Gradle.HomeWork.cssSelectors" />
-        <item itemvalue="Gradle.StartSelenium.test" />
+        <item itemvalue="Gradle.HomeWork.byXpath" />
+        <item itemvalue="Gradle.HomeWork.byCssSelectors" />
+        <item itemvalue="Gradle.HomeWork.byId" />
+        <item itemvalue="Gradle.HomeWork.byClassName" />
+        <item itemvalue="Gradle.HomeWork.byName" />
       </list>
     </recent_temporary>
   </component>
@@ -167,11 +217,20 @@
       <option name="project" value="LOCAL" />
       <updated>1753430384554</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="28.07.2025 CW">
+      <option name="closed" value="true" />
+      <created>1753725436159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753725436159</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home work 25.07.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="home work 25.07.25" />
+    <MESSAGE value="28.07.2025 CW" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.07.2025 CW" />
   </component>
 </project>
