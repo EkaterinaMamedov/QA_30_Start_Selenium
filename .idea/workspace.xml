@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="28.07.2025 CW">
+    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="HW 28.07.2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWorkChesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWorkChesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,9 +65,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.HomeWork.byClassName.executor": "Run",
     "Gradle.HomeWork.byCssSelectors.executor": "Run",
+    "Gradle.HomeWork.byId.executor": "Run",
+    "Gradle.HomeWork.byName.executor": "Run",
+    "Gradle.HomeWork.byTagName.executor": "Run",
+    "Gradle.HomeWork.byXpath.executor": "Run",
     "Gradle.HomeWork.cssSelectors.executor": "Run",
     "Gradle.HomeWork.cssXpath.executor": "Run",
+    "Gradle.HomeWorkChesk.cssSelectors.executor": "Run",
+    "Gradle.HomeWorkChesk.cw2.executor": "Run",
     "Gradle.Index.tableTest.executor": "Run",
     "Gradle.StartSelenium.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -70,8 +88,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HomeWork.byXpath">
-    <configuration name="HomeWork.byClassName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.HomeWorkChesk.cw2">
+    <configuration name="HomeWorkChesk.cssSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -84,7 +102,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;HomeWork.byClassName&quot;" />
+            <option value="&quot;HomeWorkChesk.cssSelectors&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="HomeWorkChesk.cw2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HomeWorkChesk.cw2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,30 +185,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomeWork.byName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;HomeWork.byName&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="HomeWork.byXpath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWorkChesk.cw2" />
+        <item itemvalue="Gradle.HomeWorkChesk.cssSelectors" />
         <item itemvalue="Gradle.HomeWork.byXpath" />
         <item itemvalue="Gradle.HomeWork.byCssSelectors" />
         <item itemvalue="Gradle.HomeWork.byId" />
-        <item itemvalue="Gradle.HomeWork.byClassName" />
-        <item itemvalue="Gradle.HomeWork.byName" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1753725436159</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW 28.07.2025">
+      <option name="closed" value="true" />
+      <created>1753743656049</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753743656049</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home work 25.07.25" />
     <MESSAGE value="28.07.2025 CW" />
-    <option name="LAST_COMMIT_MESSAGE" value="28.07.2025 CW" />
+    <MESSAGE value="HW 28.07.2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 28.07.2025" />
   </component>
 </project>
