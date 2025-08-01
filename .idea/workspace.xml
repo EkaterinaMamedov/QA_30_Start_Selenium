@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="HW 28.07.2025">
+    <list default="true" id="507b9aab-e719-4e38-a692-47d9fcf08c9e" name="Changes" comment="CW 31.07.2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWorkChesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWorkChesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,13 +249,22 @@
       <option name="project" value="LOCAL" />
       <updated>1753743656049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CW 31.07.2025">
+      <option name="closed" value="true" />
+      <created>1753984498758</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753984498758</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="home work 25.07.25" />
     <MESSAGE value="28.07.2025 CW" />
     <MESSAGE value="HW 28.07.2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 28.07.2025" />
+    <MESSAGE value="CW 31.07.2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="CW 31.07.2025" />
   </component>
 </project>
